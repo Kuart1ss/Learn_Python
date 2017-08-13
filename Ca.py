@@ -12,20 +12,15 @@ while 1:
       WhatDoYouWantToDo = input('You want to...(Add/Min/Mult/Div/Inv):')
 
       if WhatDoYouWantToDo == 'Add':
-         NowAnswer = FirNum + SecNum
-         print(FirNum, '+', SecNum, '=', NowAnswer)
+         print(FirNum, '+', SecNum, '=', FirNum + SecNum)
       elif WhatDoYouWantToDo == 'Min':
-         NowAnswer = FirNum - SecNum
-         print(FirNum, '-', SecNum, '=', NowAnswer)
+         print(FirNum, '-', SecNum, '=', FirNum - SecNum)
       elif WhatDoYouWantToDo == 'Mult':
-         NowAnswer = FirNum * SecNum
-         print(FirNum, 'x', SecNum, '=', NowAnswer)
+         print(FirNum, 'x', SecNum, '=', FirNum * SecNum)
       elif WhatDoYouWantToDo == 'Div':
-         NowAnswer = FirNum / SecNum
-         print(FirNum, '/', SecNum, '=', NowAnswer)
+         print(FirNum, '/', SecNum, '=', FirNum / SecNum)
       elif WhatDoYouWantToDo == 'Inv':
-         NowAnswer = FirNum ** SecNum
-         print(FirNum, '^', SecNum, '=', NowAnswer)
+         print(FirNum, '^', SecNum, '=', FirNum ** SecNum)
       else:
          print('ERROR!\nCOMMAND NOT FIND!\nPlease Enter true command.')
  elif UserIntention == 'h':
