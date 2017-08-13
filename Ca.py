@@ -7,8 +7,8 @@ while 1:
                        '\nFor help,press h and enter.'
                        '\nIf not,press any other key and enter.')
  if UserIntention == 'y':
-      FirNum = int(input('The First Number:'))
-      SecNum = int(input('The Second Number:'))
+      FirNum = float(input('The First Number:'))
+      SecNum = float(input('The Second Number:'))
       WhatDoYouWantToDo = input('You want to...(Add/Min/Mult/Div/Inv):')
 
       if WhatDoYouWantToDo == 'Add':
